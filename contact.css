@@ -1,0 +1,51 @@
+.container {
+    width: 80%;
+    margin: 20px auto;
+    color: white;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    text-align: left;
+  }
+  .contact-info {
+    margin-top: 20px;
+    color: white;
+  }
+  .contact-info p {
+    margin: 5px 0;
+    color: white;
+  }
+
+  #navbar{
+    position: relative;
+    display: flex; /*another property used the list of elements iin row wise */ /*for parent display flex is used*/
+    justify-content: space-between; /* horizontally align*/
+    align-items: center; /* vertically align*/
+    width: 100%;
+    height: 150px;
+    /* margin-left:100px; */
+    
+    background-color: rgb(114, 28, 28);
+   
+  
+    /* font-style: italic; */
+
+}
+.listitem{
+    display: inline-block; /*for contents in list this inline-block is used*/
+    list-style: none; /*this propoerty is used to hide the styles in list elements..eg:bullet,rommannumber ,nmbers etc*/
+    margin: 10px 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.links{
+    text-decoration: none; /*avoid the links underline*/
+    color: white;
+    font-weight: bolder;
+}
+
+.links:hover{
+    color: gray;
+}

@@ -1,0 +1,63 @@
+#navbar{
+    position: relative;
+    display: flex; /*another property used the list of elements iin row wise */ /*for parent display flex is used*/
+    justify-content: space-between; /* horizontally align*/
+    align-items: center; /* vertically align*/
+    width: 100%;
+    height: 150px;
+    /* margin-left:100px; */
+    
+    background-color: rgb(114, 28, 28);
+   
+  
+    /* font-style: italic; */
+
+}
+.listitem{
+    display: inline-block; /*for contents in list this inline-block is used*/
+    list-style: none; /*this propoerty is used to hide the styles in list elements..eg:bullet,rommannumber ,nmbers etc*/
+    margin: 10px 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.links{
+    text-decoration: none; /*avoid the links underline*/
+    color: white;
+    font-weight: bolder;
+}
+
+.links:hover{
+    color: gray;
+}
+
+
+.cont1{
+    position: relative;
+  /* width: 100%; */
+  height: 100vh;
+  background-image: url('https://png.pngtree.com/background/20230522/original/pngtree-coffee-shop-in-an-old-building-picture-image_2690132.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover;
+  
+  color: white; /* Text color on top of the image */
+  /* text-align: center; */
+  /* display: flex;
+  flex-direction: column; */
+  
+  
+}
+.style{
+    text-align: center;
+    font-size: 90px;
+    padding-top: 150px;
+    
+   
+}
+
+#cartoon-text {
+    font-family: 'Bangers', cursive; /* Use the font family you've imported */
+    font-size: 36px;
+    /* color: blue; You can change the color to suit your design */
+  }
+
+  
